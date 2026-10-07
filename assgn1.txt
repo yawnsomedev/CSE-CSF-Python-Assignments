@@ -1,0 +1,18 @@
+#List Operations-
+mylist=[10,20,30]
+mylist.append(40)
+mylist.remove(20)
+mylist.insert(1,15)
+print("List:",mylist)
+
+#Tuple Operations-
+mytuple=(1,2,3,4)
+print("Tuple:",mytuple)
+print("Count of 2:",mytuple.count(2))
+print("Index of 3:",mytuple.index(3))
+
+#Dictionary Operations-
+mydict={"Name":"Aman","Age":19}
+mydict["course"]="Python"
+mydict.pop("age")
+print("Dictionary:",mydict)
